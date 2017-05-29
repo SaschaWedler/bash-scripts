@@ -1,2 +1,2 @@
 # bash-scripts
-This is a collection of /bin/bash scripts to ease the development of Linux applications.
+This is a collection of bash scripts to ease the development of Linux applications.
