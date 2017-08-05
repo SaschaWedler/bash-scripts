@@ -1,4 +1,7 @@
 #!/bin/bash
+# usage: filter.sh [+|-word] ... < text-file.log
+# -: Remove line, if it contains this character sequence.
+# +: Remove line, if this character sequence is not found.
 filter() {
  local IFS=$'\n' x="" line="" item=""
  while read -r line
